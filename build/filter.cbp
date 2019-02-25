@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="filter" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\share\;CMake Files\..\..\..\usr\share\OpenCV\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\share\;CMake Files\..\..\..\usr\local\share\OpenCV\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/harsh/kalman extended filter-pendulum/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/harsh/kalman extended filter-pendulum/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/harsh/kalman extended filter-pendulum/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="filter">
+         <Option output="/home/harsh/kalman extended filter-pendulum/build/filter" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/harsh/kalman extended filter-pendulum/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/pylon5/include" />
+            <Add directory="/opt/ros/indigo/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 filter" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="filter/fast">
+         <Option output="/home/harsh/kalman extended filter-pendulum/build/filter" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/harsh/kalman extended filter-pendulum/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/pylon5/include" />
+            <Add directory="/opt/ros/indigo/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 filter/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/harsh/kalman\ extended\ filter-pendulum/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/harsh/kalman extended filter-pendulum/filter.cpp">
+      </Unit>
+      <Unit filename="/home/harsh/kalman extended filter-pendulum/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/harsh/kalman extended filter-pendulum/../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/harsh/kalman extended filter-pendulum/../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/harsh/kalman extended filter-pendulum/../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/harsh/kalman extended filter-pendulum/../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/harsh/kalman extended filter-pendulum/../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
